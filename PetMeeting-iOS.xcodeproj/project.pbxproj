@@ -101,8 +101,9 @@
 			children = (
 				ABED24A925E737210005B18F /* AppDelegate.swift */,
 				ABED24AB25E737210005B18F /* SceneDelegate.swift */,
-				ABED24AD25E737210005B18F /* ViewController.swift */,
-				ABED24AF25E737210005B18F /* Main.storyboard */,
+				ABED24E625E737BF0005B18F /* Model */,
+				ABED24DC25E737A70005B18F /* View */,
+				ABED24E025E737AB0005B18F /* Controller */,
 				ABED24B225E737220005B18F /* Assets.xcassets */,
 				ABED24B425E737220005B18F /* LaunchScreen.storyboard */,
 				ABED24B725E737220005B18F /* Info.plist */,
@@ -126,6 +127,29 @@
 				ABED24CD25E737220005B18F /* Info.plist */,
 			);
 			path = "PetMeeting-iOSUITests";
+			sourceTree = "<group>";
+		};
+		ABED24DC25E737A70005B18F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABED24AF25E737210005B18F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABED24E025E737AB0005B18F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABED24AD25E737210005B18F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ABED24E625E737BF0005B18F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
