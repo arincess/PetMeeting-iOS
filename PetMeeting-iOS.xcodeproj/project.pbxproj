@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABED24AA25E737210005B18F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED24A925E737210005B18F /* AppDelegate.swift */; };
+		ABED24AC25E737210005B18F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED24AB25E737210005B18F /* SceneDelegate.swift */; };
+		ABED24AE25E737210005B18F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED24AD25E737210005B18F /* ViewController.swift */; };
+		ABED24B125E737210005B18F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABED24AF25E737210005B18F /* Main.storyboard */; };
+		ABED24B325E737220005B18F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABED24B225E737220005B18F /* Assets.xcassets */; };
+		ABED24B625E737220005B18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABED24B425E737220005B18F /* LaunchScreen.storyboard */; };
+		ABED24C125E737220005B18F /* PetMeeting_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED24C025E737220005B18F /* PetMeeting_iOSTests.swift */; };
+		ABED24CC25E737220005B18F /* PetMeeting_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABED24CB25E737220005B18F /* PetMeeting_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABED24BD25E737220005B18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABED249E25E737210005B18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABED24A525E737210005B18F;
+			remoteInfo = "PetMeeting-iOS";
+		};
+		ABED24C825E737220005B18F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABED249E25E737210005B18F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABED24A525E737210005B18F;
+			remoteInfo = "PetMeeting-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABED24A625E737210005B18F /* PetMeeting-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PetMeeting-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABED24A925E737210005B18F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABED24AB25E737210005B18F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ABED24AD25E737210005B18F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABED24B025E737210005B18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABED24B225E737220005B18F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABED24B525E737220005B18F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABED24B725E737220005B18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABED24BC25E737220005B18F /* PetMeeting-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PetMeeting-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABED24C025E737220005B18F /* PetMeeting_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetMeeting_iOSTests.swift; sourceTree = "<group>"; };
+		ABED24C225E737220005B18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABED24C725E737220005B18F /* PetMeeting-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PetMeeting-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABED24CB25E737220005B18F /* PetMeeting_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetMeeting_iOSUITests.swift; sourceTree = "<group>"; };
+		ABED24CD25E737220005B18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABED24A325E737210005B18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABED24B925E737220005B18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABED24C425E737220005B18F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABED249D25E737210005B18F = {
+			isa = PBXGroup;
+			children = (
+				ABED24A825E737210005B18F /* PetMeeting-iOS */,
+				ABED24BF25E737220005B18F /* PetMeeting-iOSTests */,
+				ABED24CA25E737220005B18F /* PetMeeting-iOSUITests */,
+				ABED24A725E737210005B18F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABED24A725E737210005B18F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABED24A625E737210005B18F /* PetMeeting-iOS.app */,
+				ABED24BC25E737220005B18F /* PetMeeting-iOSTests.xctest */,
+				ABED24C725E737220005B18F /* PetMeeting-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABED24A825E737210005B18F /* PetMeeting-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABED24A925E737210005B18F /* AppDelegate.swift */,
+				ABED24AB25E737210005B18F /* SceneDelegate.swift */,
+				ABED24AD25E737210005B18F /* ViewController.swift */,
+				ABED24AF25E737210005B18F /* Main.storyboard */,
+				ABED24B225E737220005B18F /* Assets.xcassets */,
+				ABED24B425E737220005B18F /* LaunchScreen.storyboard */,
+				ABED24B725E737220005B18F /* Info.plist */,
+			);
+			path = "PetMeeting-iOS";
+			sourceTree = "<group>";
+		};
+		ABED24BF25E737220005B18F /* PetMeeting-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABED24C025E737220005B18F /* PetMeeting_iOSTests.swift */,
+				ABED24C225E737220005B18F /* Info.plist */,
+			);
+			path = "PetMeeting-iOSTests";
+			sourceTree = "<group>";
+		};
+		ABED24CA25E737220005B18F /* PetMeeting-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABED24CB25E737220005B18F /* PetMeeting_iOSUITests.swift */,
+				ABED24CD25E737220005B18F /* Info.plist */,
+			);
+			path = "PetMeeting-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABED24A525E737210005B18F /* PetMeeting-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABED24D025E737220005B18F /* Build configuration list for PBXNativeTarget "PetMeeting-iOS" */;
+			buildPhases = (
+				ABED24A225E737210005B18F /* Sources */,
+				ABED24A325E737210005B18F /* Frameworks */,
+				ABED24A425E737210005B18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PetMeeting-iOS";
+			productName = "PetMeeting-iOS";
+			productReference = ABED24A625E737210005B18F /* PetMeeting-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABED24BB25E737220005B18F /* PetMeeting-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABED24D325E737220005B18F /* Build configuration list for PBXNativeTarget "PetMeeting-iOSTests" */;
+			buildPhases = (
+				ABED24B825E737220005B18F /* Sources */,
+				ABED24B925E737220005B18F /* Frameworks */,
+				ABED24BA25E737220005B18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABED24BE25E737220005B18F /* PBXTargetDependency */,
+			);
+			name = "PetMeeting-iOSTests";
+			productName = "PetMeeting-iOSTests";
+			productReference = ABED24BC25E737220005B18F /* PetMeeting-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABED24C625E737220005B18F /* PetMeeting-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABED24D625E737220005B18F /* Build configuration list for PBXNativeTarget "PetMeeting-iOSUITests" */;
+			buildPhases = (
+				ABED24C325E737220005B18F /* Sources */,
+				ABED24C425E737220005B18F /* Frameworks */,
+				ABED24C525E737220005B18F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABED24C925E737220005B18F /* PBXTargetDependency */,
+			);
+			name = "PetMeeting-iOSUITests";
+			productName = "PetMeeting-iOSUITests";
+			productReference = ABED24C725E737220005B18F /* PetMeeting-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABED249E25E737210005B18F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					ABED24A525E737210005B18F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					ABED24BB25E737220005B18F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ABED24A525E737210005B18F;
+					};
+					ABED24C625E737220005B18F = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = ABED24A525E737210005B18F;
+					};
+				};
+			};
+			buildConfigurationList = ABED24A125E737210005B18F /* Build configuration list for PBXProject "PetMeeting-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABED249D25E737210005B18F;
+			productRefGroup = ABED24A725E737210005B18F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABED24A525E737210005B18F /* PetMeeting-iOS */,
+				ABED24BB25E737220005B18F /* PetMeeting-iOSTests */,
+				ABED24C625E737220005B18F /* PetMeeting-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABED24A425E737210005B18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABED24B625E737220005B18F /* LaunchScreen.storyboard in Resources */,
+				ABED24B325E737220005B18F /* Assets.xcassets in Resources */,
+				ABED24B125E737210005B18F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABED24BA25E737220005B18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABED24C525E737220005B18F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABED24A225E737210005B18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABED24AE25E737210005B18F /* ViewController.swift in Sources */,
+				ABED24AA25E737210005B18F /* AppDelegate.swift in Sources */,
+				ABED24AC25E737210005B18F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABED24B825E737220005B18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABED24C125E737220005B18F /* PetMeeting_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABED24C325E737220005B18F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABED24CC25E737220005B18F /* PetMeeting_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABED24BE25E737220005B18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABED24A525E737210005B18F /* PetMeeting-iOS */;
+			targetProxy = ABED24BD25E737220005B18F /* PBXContainerItemProxy */;
+		};
+		ABED24C925E737220005B18F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABED24A525E737210005B18F /* PetMeeting-iOS */;
+			targetProxy = ABED24C825E737220005B18F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABED24AF25E737210005B18F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABED24B025E737210005B18F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABED24B425E737220005B18F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABED24B525E737220005B18F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABED24CE25E737220005B18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABED24CF25E737220005B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABED24D125E737220005B18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PetMeeting-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimaj.PetMeeting-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABED24D225E737220005B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PetMeeting-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimaj.PetMeeting-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABED24D425E737220005B18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PetMeeting-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimaj.PetMeeting-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetMeeting-iOS.app/PetMeeting-iOS";
+			};
+			name = Debug;
+		};
+		ABED24D525E737220005B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PetMeeting-iOSTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimaj.PetMeeting-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetMeeting-iOS.app/PetMeeting-iOS";
+			};
+			name = Release;
+		};
+		ABED24D725E737220005B18F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PetMeeting-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimaj.PetMeeting-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PetMeeting-iOS";
+			};
+			name = Debug;
+		};
+		ABED24D825E737220005B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "PetMeeting-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kimaj.PetMeeting-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "PetMeeting-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABED24A125E737210005B18F /* Build configuration list for PBXProject "PetMeeting-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABED24CE25E737220005B18F /* Debug */,
+				ABED24CF25E737220005B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABED24D025E737220005B18F /* Build configuration list for PBXNativeTarget "PetMeeting-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABED24D125E737220005B18F /* Debug */,
+				ABED24D225E737220005B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABED24D325E737220005B18F /* Build configuration list for PBXNativeTarget "PetMeeting-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABED24D425E737220005B18F /* Debug */,
+				ABED24D525E737220005B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABED24D625E737220005B18F /* Build configuration list for PBXNativeTarget "PetMeeting-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABED24D725E737220005B18F /* Debug */,
+				ABED24D825E737220005B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABED249E25E737210005B18F /* Project object */;
+}
